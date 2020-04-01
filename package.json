@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node src/main.js"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
   }
 }
