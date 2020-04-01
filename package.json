@@ -2,9 +2,11 @@
   "name": "vscode-js-using-ts",
   "version": "1.0.0",
   "scripts": {
-    "start": "node src/main.js"
+    "start": "node src/main.js",
+    "typecheck": "tsc --build jsconfig.json"
   },
   "devDependencies": {
+    "@types/node": "^13.9.8",
     "typescript": "^3.8.3"
   }
 }

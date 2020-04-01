@@ -12,12 +12,17 @@ function buildSmallHatchback (enginePower, wheelInfo) {
   }
 }
 
+/**
+ * @type {import('#/types/Wheel').Wheel}
+ */
+const wheelInfo = {
+  count: 4,
+  radius: 'R13'
+}
+
 function main () {
   const enginePower = Number(process.argv[2]);
-  console.log(buildSmallHatchback(enginePower, {
-    count: 4,
-    radius: 'R13'
-  }));
+  console.log(buildSmallHatchback(enginePower, wheelInfo));
 }
 
 main();

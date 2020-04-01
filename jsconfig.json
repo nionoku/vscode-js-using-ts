@@ -2,6 +2,7 @@
   "compilerOptions": {
     "checkJs": true,
     "strict": true,
+    "noEmit": true,
     "baseUrl": ".",
     "paths": {
       "@/*": [
@@ -11,11 +12,6 @@
         "./*"
       ]
     },
-  },
-  "typeAcquisition": {
-    "include": [
-      "node"
-    ]
   },
   "include": [
     "src/**/*"
